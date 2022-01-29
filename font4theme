@@ -1,0 +1,7 @@
+:root {
+    --font-primary: var(--customFont) ,"Smallest Pixel-7";
+    --font-display: var(--customFont) ,"Smallest Pixel-7";
+}
+::placeholder, body, button, input, select, textarea{
+    font-family: var(--customFont) !important;
+}
